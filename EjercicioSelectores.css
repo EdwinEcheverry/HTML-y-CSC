@@ -1,0 +1,10 @@
+.div, #elementos-1
+{
+    color: red;
+}
+
+div ul #elementos-1
+{
+    font-size: 3rem;
+}
+

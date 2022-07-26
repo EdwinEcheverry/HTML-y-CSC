@@ -1,0 +1,12 @@
+.flex
+{
+    flex-wrap: wrap;
+    margin: 80px;
+}
+
+.imagenes
+{
+    width: 300px;
+    height:300px ;
+    gap: 20px;
+}
