@@ -1,0 +1,24 @@
+
+/*pseudoelemento ::before*/
+.boton::before
+{
+    content: "Pasa por encima";    
+}
+
+
+/*pseudoclase ::hover */
+.boton:hover::before
+{
+    /*initial-value: "Carro moto";*/
+   
+    color: white;
+    background-color: green;
+    /*content: "carro moto moto";*/
+}
+
+/*pseudoelemento ::*/
+.boton::before
+{
+   
+    content: "carro moto moto";
+}
