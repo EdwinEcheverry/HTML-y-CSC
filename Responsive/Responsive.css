@@ -12,42 +12,31 @@ La disposición de los elementos de la barra lateral se vuelva horizontal
 (Tip: Trabaja con la propiedad flex-direction) */
 body
 {
+    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     margin: 0;     
     padding: 0;  
-      
+
 }
 
 .lateral
 {
     display: flex;
     background-color: blueviolet;
-    width: 15vw;
-    height: 50vw;     
-    
-     flex-direction: column;     
-    
-     /* Eje principal */
-     justify-content: space-around;
-
-     /*Eje secundario*/
-     align-items: center;  
+    padding: 10px;
+    flex-direction: column;   
+    justify-content: space-around;
+     
     
 }
 
-.item
+.derecho 
 {
-    background-color: gray;
+    flex-grow: 1;
+    background-color: rgb(42, 108, 165);
+    padding: 10px;
     text-align: center;
-    gap: 0.25vw;
-    border: 1px solid green;
-    
-}
-
-.derecho
-{
-    flex-grow: 2;
-    background-color: brown;
 }
 
 
@@ -56,20 +45,13 @@ body
 {
     .lateral{
                
-        color: red;
         flex-direction: row; 
-        width: 100vw;
-        height: 15vw;  
-        /* transform: translateX(50%) translateY(100%); */
-        position: fixed;
-        bottom: 0;
-        width: 100vw;
+        justify-content: space-around;
         
     }
 
-    .derecho
+    body
     {
-        width: 100vw;
-        height: 100vw;
+        flex-direction:column-reverse;
     }
 }   

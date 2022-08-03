@@ -1,0 +1,43 @@
+/* Por defecto, cada elemento ocupará el ancho máximo
+Para viewports SM - cada fila contendrá 2 elementos
+Para viewports MD - cada fila contendrá 3 elementos
+Para viewports LG - cada fila contendrá 4 elementos
+Para viewports XL - cada fila contendrá 6 elementos */
+
+
+.row div
+{
+    margin: 5px;    
+}
+
+.col-xs
+{
+    background-color: blue;
+    width: 100vw;
+}
+
+.col-sm
+{
+    background-color: rgb(225, 0, 255);
+    
+}
+
+.col-md
+{
+    background-color: rgb(255, 0, 51);
+}
+
+.col-lg
+{
+    background-color: rgb(255, 128, 0);
+}
+
+.col-xl
+{
+    background-color: rgb(242, 255, 0);
+}
+
+.col-xxl
+{
+    background-color: rgb(0, 255, 0);
+}
