@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Boostrap Elements</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!-- SECCIÓN 1 -->
+
+            <div class="container mx-4 mt-2 h-100 d-block ">
+                <div class="row justify-content-start">        
+                <div class="bg-secondary p-4 rounded-3 col-6">
+                    <div class="container-fluid-responsive py-5">
+                                <h1 class="fs-3 fw-bold ">Custom Jumbotron</h1>
+                        <p class="col-md-8 fs-5">Using a series of utilities, you can create this             jumbotron, just like the one in previous versions of Bootstrap. Check out the           examples below for how you can remix and restyle it to your liking.</p>
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"            data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+                <div class="modal  modal-fullscreen" id="exampleModal" tabindex="-1"            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"             aria-label="Close"> xxx</button>
+                            </div>
+                        <div class="modal-body">
+                        Este es el body del modal full-screen
+                        </div>
+                        <div class="modal-footer">
+                         < type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</      button>
+                         <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- SECCIÓN 2 -->
+
+        <div class="container mt-4 mb-4 mg-3 mb-4 border border-primary rounded-3">
+            <forn>
+                <div class="form-group row">
+            <div class="mb-3">
+                <label class="form-label fs-4" for="nombre">Nombre</label>
+                <input  class="form-control bg-secondary text-white" type="text" id="nombre"></input>
+                
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fs-4" for="telefono">Teléfono</label>
+                <input  class="form-control bg-secondary text-white" type="number" id="telefono"></input>
+                
+            </div>
+            <div class="mb-3">
+                <label class="form-label fs-4" for="mensaje">Mensaje</label>
+                <textarea  class="form-control bg-secondary text-white" type="textarea" id="mensaje"></textarea>
+                
+            </div>
+            <div class="row justify-content-end">
+            <button class="btn btn-primary col-2 mb-4" type="submit">Enviar</button>
+            </div>
+            </div>
+                
+            </forn>
+            </div>
+     
+<!-- SECCIÓN 3 -->
+
+            <div class="container py-4">  
+                <div class="row justify-content-center ">             
+                <div class="card my-4 border-secondary rounded-3" style="width: 60rem">
+                 <div class="card-header">
+                    <p class="display-6 text-center"> Edwin Alexander Echeverry Sánchez</p>
+                    
+                    <div class="container text-center">
+                    <img class="img-fluid" width="180" height="auto" src= "../../EJERCICIOS/Imágenes/image.png" alt="Fron-end">
+                    </div>
+        
+                    <div class="card-body"> <p class="fs-3"> <em><strong>Descripción:</strong>  Soy ingeniero Electrónico, instructor contratista Sena, y me propuse hace un par de meses ser programador Front-end. </em></p>   </div>
+                        <div class="card-footer "><p class="lead fs-4 text-end "> echeverryedwin@gmail.com</p> </div>
+                </div>
+
+            </div>
+            </div> 
+            <hr> 
+    
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>
